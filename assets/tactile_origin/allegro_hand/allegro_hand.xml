@@ -1,0 +1,48 @@
+<!--Link  MuJoCo modeling: http://www.mujoco.org/book/modeling.html-->
+
+<mujoco model="allegro_baoding">
+    <option timestep="2e-3"
+            iterations="100"
+            tolerance="1e-10"
+            impratio="20"/>
+
+    <include file="shared.xml"></include>
+
+    <!--MODEL DESCRIPTION-->
+    <worldbody>
+
+        <!--Robot and Allegro hand -->
+        <include file="assets/allegro.xml"></include>
+
+        <!--Lighting parameters-->
+        <light name="light3" mode="targetbody" target="palm_link" directional="true" pos="1 1 3" />
+
+    </worldbody>
+
+    <!--ACTUATORS-->
+    <actuator>
+
+        <!--gripper-->
+        <position name='finger_0_0' ctrllimited="true" kp="50" ctrlrange='-0.47 0.47' joint='joint_0.0' />
+        <position name='finger_1_0' ctrllimited="true" kp="50" ctrlrange='-0.196 1.61' joint='joint_1.0' />
+        <position name='finger_2_0' ctrllimited="true" kp="50" ctrlrange="-0.174 1.25" joint='joint_2.0'/>
+        <position name='finger_3_0' ctrllimited="true" kp="50" ctrlrange="0 0.6" joint='joint_3.0'/>
+
+        <position name='finger_4_0' ctrllimited="true" kp="50" ctrlrange="-0.47 0.47" joint='joint_4.0'/>
+        <position name='finger_5_0' ctrllimited="true" kp="50" ctrlrange="-0.196 1.61" joint='joint_5.0'/>
+        <position name='finger_6_0' ctrllimited="true" kp="50" ctrlrange="-0.174 1.25" joint='joint_6.0'/>
+        <position name='finger_7_0' ctrllimited="true" kp="50" ctrlrange="0 0.6" joint='joint_7.0'/>
+
+        <position name='finger_8_0' ctrllimited="true" kp="50" ctrlrange="-0.47 0.47" joint='joint_8.0'/>
+        <position name='finger_9_0' ctrllimited="true" kp="50" ctrlrange="-0.196 1.61" joint='joint_9.0'/>
+        <position name='finger_10_0' ctrllimited="true" kp="50" ctrlrange="-0.174 1.25" joint='joint_10.0'/>
+        <position name='finger_11_0' ctrllimited="true" kp="50" ctrlrange="0 0.6" joint='joint_11.0'/>
+
+        <position name='finger_12_0' ctrllimited="true" kp="50" ctrlrange="0.263 1.396" joint='joint_12.0'/>
+        <position name='finger_13_0' ctrllimited="true" kp="50" ctrlrange="-0.105 1.163" joint='joint_13.0'/>
+        <position name='finger_14_0' ctrllimited="true" kp="50" ctrlrange="-0.189 1.25" joint='joint_14.0'/>
+        <position name='finger_15_0' ctrllimited="true" kp="50" ctrlrange="0 1" joint='joint_15.0'/>
+
+    </actuator>
+
+</mujoco>

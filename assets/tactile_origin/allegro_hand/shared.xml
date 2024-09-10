@@ -1,0 +1,81 @@
+<mujoco>
+
+    <compiler angle="radian"
+              inertiafromgeom="true"/>
+
+    <size njmax="6000" nconmax="5000" nstack="3000000" />
+
+    <default>
+        <site size='0.005 0.005 0.005' rgba="0.8 0.6 0.7 0.3" type="ellipsoid" group="3"/>
+        <joint armature="0.01" damping=".1"/>
+
+        <geom contype='1' conaffinity='1' condim='4'  margin="1e-3" solref=".01 1" solimp=".99 .99 .01" />
+
+        <default class="palm">
+            <geom contype="0" conaffinity="0"/>
+        </default>
+        <default class="finger1">
+            <geom contype="0" conaffinity="0"/>
+        </default>
+        <default class="finger2">
+            <geom contype="0" conaffinity="0"/>
+        </default>
+        <default class="finger3">
+            <geom contype="0" conaffinity="0"/>
+        </default>
+        <default class="finger4">
+            <geom contype="0" conaffinity="0"/>
+        </default>
+        <default class="robot0:D_Contact">
+            <geom contype="1" conaffinity="0" group="4" type="mesh"></geom>
+        </default>
+
+    </default>
+
+    <visual>
+        <map fogstart="3" fogend="5" znear="0.05"/>
+        <quality shadowsize="2048"/>
+        <scale framelength="20"
+               framewidth="0.5"
+               contactwidth="0.1"
+               contactheight="0.005"
+               forcewidth="0.01"
+               />
+    </visual>
+
+    <!--Assets-->
+    <asset>
+
+        <!--Meshes-->
+        <mesh name="palm"           sacle = "10 10 10" file="mesh/base_link.STL"     />
+        <mesh name="link_0.0"       sacle = "10 10 10" file="mesh/link_0.0.STL" />
+        <mesh name="link_1.0"       sacle = "10 10 10" file="mesh/link_1.0.STL" />
+        <mesh name="link_2.0"       sacle = "10 10 10" file="mesh/link_2.0.STL" />
+        <mesh name="link_middle" sacle = "10 10 10" file="mesh/link_middle.STL" scale="0.001 0.001 0.001"/>
+        <mesh name="link_3.0"       sacle = "10 10 10" file="mesh/link_3.0.STL" />
+        <mesh name="link_3.0_tip"   sacle = "10 10 10" file="mesh/fingertip_V2_fixed4.STL" scale="0.001 0.001 0.001"/>
+        <mesh name="link_4.0"       sacle = "10 10 10" file="mesh/link_4.0.STL" />
+        <mesh name="link_5.0"       sacle = "10 10 10" file="mesh/link_1.0.STL" />
+        <mesh name="link_6.0"       sacle = "10 10 10" file="mesh/link_2.0.STL" />
+        <mesh name="link_7.0"       sacle = "10 10 10" file="mesh/link_3.0.STL" />
+        <mesh name="link_7.0_tip"   sacle = "10 10 10" file="mesh/fingertip_V2_fixed4.STL" scale="0.001 0.001 0.001"/>
+        <mesh name="link_8.0"       sacle = "10 10 10" file="mesh/link_4.0.STL" />
+        <mesh name="link_9.0"       sacle = "10 10 10" file="mesh/link_1.0.STL" />
+        <mesh name="link_10.0"       sacle = "10 10 10" file="mesh/link_2.0.STL" />
+        <mesh name="link_11.0"       sacle = "10 10 10" file="mesh/link_3.0.STL" />
+        <mesh name="link_11.0_tip"   sacle = "10 10 10" file="mesh/fingertip_V2_fixed4.STL" scale="0.001 0.001 0.001"/>
+        <mesh name="link_12.0"       sacle = "10 10 10" file="mesh/link_12.0_right.STL" />
+        <mesh name="link_13.0"       sacle = "10 10 10" file="mesh/link_13.0.STL" />
+        <mesh name="link_14.0"       sacle = "10 10 10" file="mesh/link_14.0.STL" />
+        <mesh name="link_15.0"       sacle = "10 10 10" file="mesh/link_15.0.STL" />
+        <mesh name="link_15.0_tip"   sacle = "10 10 10" file="mesh/fingertip_V2_fixed4.STL" scale="0.001 0.001 0.001"/>
+
+        <!--Textures-->
+        <texture name="gripper_tex" type="2d"   builtin="flat" height="32" width="32" rgb1="0.45 0.45 0.45" rgb2="0 0 0"/>
+
+        <!--Materials-->
+        <material name="gripper_mat"    texture="gripper_tex"   shininess="0.9" specular="0.75" reflectance="0.4" />
+
+    </asset>
+
+</mujoco>

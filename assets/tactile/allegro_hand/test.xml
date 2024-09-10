@@ -1,0 +1,589 @@
+            <!-- tactile of palm-->
+            <body name="palm_root_tactile" pos="-0.001 0 -0.002">
+
+                <body name="touch_111_1_1" pos=" 0.013 0.05075 -0.0065"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_1_1" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_2_1" pos=" 0.013 0.0435 -0.0065"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_2_1" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_3_1" pos=" 0.013 0.03625 -0.0065"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_3_1" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_4_1" pos=" 0.013 0.029 -0.0065"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_4_1" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_5_1" pos=" 0.013 0.02175 -0.0065"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_5_1" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_6_1" pos=" 0.013 0.0145 -0.0065"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_6_1" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_7_1" pos=" 0.013 0.00725 -0.0065"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_7_1" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_8_1" pos=" 0.013 0.0 -0.0065"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_8_1" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_9_1" pos=" 0.013 -0.00725 -0.0065"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_9_1" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_10_1" pos=" 0.013 -0.0145 -0.0065"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_10_1" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_11_1" pos=" 0.013 -0.02175 -0.0065"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_11_1" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_12_1" pos=" 0.013 -0.029 -0.0065"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_12_1" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_13_1" pos=" 0.013 -0.03625 -0.0065"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_13_1" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_14_1" pos=" 0.013 -0.0435 -0.0065"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_14_1" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_15_1" pos=" 0.013 -0.05075 -0.0065"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_15_1" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <!-- 第二行 -->
+
+                <body name="touch_111_1_2" pos=" 0.013 0.05075 -0.01375" euler= "0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_1_2" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_2_2" pos=" 0.013 0.0435 -0.01375"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_2_2" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_3_2" pos=" 0.013 0.03625 -0.01375"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_3_2" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_4_2" pos=" 0.013 0.029 -0.01375"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_4_2" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_5_2" pos=" 0.013 0.02175 -0.01375"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_5_2" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_6_2" pos=" 0.013 0.0145 -0.01375"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_6_2" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_7_2" pos=" 0.013 0.00725 -0.01375"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_7_2" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_8_2" pos=" 0.013 0.0 -0.01375"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_8_2" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_9_2" pos=" 0.013 -0.00725 -0.01375"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_9_2" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_10_2" pos=" 0.013 -0.0145 -0.01375"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_10_2" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_11_2" pos=" 0.013 -0.02175 -0.01375"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_11_2" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_12_2" pos=" 0.013 -0.029 -0.01375"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_12_2" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_13_2" pos=" 0.013 -0.03625 -0.01375"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_13_2" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_14_2" pos=" 0.013 -0.0435 -0.01375"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_14_2" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_15_2" pos=" 0.013 -0.05075 -0.01375"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_15_2" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+                <!-- 第三行 -->
+
+                <body name="touch_111_1_3" pos=" 0.013 0.05075 -0.021"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_1_3" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_2_3" pos=" 0.013 0.0435 -0.021"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_2_3" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_3_3" pos=" 0.013 0.03625 -0.021"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_3_3" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_4_3" pos=" 0.013 0.029 -0.021"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_4_3" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_5_3" pos=" 0.013 0.02175 -0.021"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_5_3" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_6_3" pos=" 0.013 0.0145 -0.021"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_6_3" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_7_3" pos=" 0.013 0.00725 -0.021"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_7_3" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_8_3" pos=" 0.013 0.0 -0.021"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_8_3" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_9_3" pos=" 0.013 -0.00725 -0.021"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_9_3" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_10_3" pos=" 0.013 -0.0145 -0.021"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_10_3" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_11_3" pos=" 0.013 -0.02175 -0.021"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_11_3" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_12_3" pos=" 0.013 -0.029 -0.021"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_12_3" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_13_3" pos=" 0.013 -0.03625 -0.021"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_13_3" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_14_3" pos=" 0.013 -0.0435 -0.021"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_14_3" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_15_3" pos=" 0.013 -0.05075 -0.021"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_15_3" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <!-- 第四行 -->
+
+                <body name="touch_111_1_4" pos=" 0.013 0.05075 -0.02825"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_1_4" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_2_4" pos=" 0.013 0.0435 -0.02825"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_2_4" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_3_4" pos=" 0.013 0.03625 -0.02825"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_3_4" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_4_4" pos=" 0.013 0.029 -0.02825"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_4_4" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_5_4" pos=" 0.013 0.02175 -0.02825"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_5_4" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_6_4" pos=" 0.013 0.0145 -0.02825"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_6_4" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_7_4" pos=" 0.013 0.00725 -0.02825"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_7_4" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_8_4" pos=" 0.013 0.0 -0.02825"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_8_4" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_9_4" pos=" 0.013 -0.00725 -0.02825"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_9_4" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_10_4" pos=" 0.013 -0.0145 -0.02825"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_10_4" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_11_4" pos=" 0.013 -0.021 -0.02825"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_11_4" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_12_4" pos=" 0.013 -0.029 -0.02825"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_12_4" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_13_4" pos=" 0.013 -0.03625 -0.02825"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_13_4" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_14_4" pos=" 0.013 -0.0435 -0.02825"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_14_4" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_15_4" pos=" 0.013 -0.05075 -0.02825"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_15_4" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <!-- 第五行 -->
+
+                <body name="touch_111_1_5" pos=" 0.013 0.0435 -0.0355"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_1_5" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_2_5" pos=" 0.013 0.03625 -0.0355"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_2_5" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_3_5" pos=" 0.013 0.029 -0.0355"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_3_5" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_4_5" pos=" 0.013 0.02175 -0.0355"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_4_5" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_5_5" pos=" 0.013 0.0145 -0.0355"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_5_5" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_6_5" pos=" 0.013 0.00725 -0.0355"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_6_5" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_7_5" pos=" 0.013 0.0 -0.0355"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_7_5" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_8_5" pos=" 0.013 -0.00725 -0.0355"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_8_5" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_9_5" pos=" 0.013 -0.0145 -0.0355"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_9_5" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_10_5" pos=" 0.013 -0.021 -0.0355"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_10_5" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_11_5" pos=" 0.013 -0.029 -0.0355"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_11_5" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_12_5" pos=" 0.013 -0.03625 -0.0355"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_12_5" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_13_5" pos=" 0.013 -0.0435 -0.0355"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_13_5" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <!-- 第六行 -->
+
+                <body name="touch_111_1_6" pos=" 0.013 -0.00725 -0.04275"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_1_6" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_2_6" pos=" 0.013 -0.0145 -0.04275"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_2_6" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_3_6" pos=" 0.013 -0.021 -0.04275"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_3_6" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_4_6" pos=" 0.013 -0.029 -0.04275"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_4_6" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_5_6" pos=" 0.013 -0.03625 -0.04275"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_5_6" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_6_6" pos=" 0.013 -0.0435 -0.04275"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_6_6" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <!-- 第七行 -->
+
+                <body name="touch_111_1_7" pos=" 0.013 -0.00725 -0.05"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_1_7" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_2_7" pos=" 0.013 -0.0145 -0.05"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_2_7" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_3_7" pos=" 0.013 -0.021 -0.05"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_3_7" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_4_7" pos=" 0.013 -0.029 -0.05"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_4_7" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_5_7" pos=" 0.013 -0.03625 -0.05"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_5_7" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_6_7" pos=" 0.013 -0.0435 -0.05"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_6_7" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <!-- 第八行 -->
+
+                <body name="touch_111_1_8" pos=" 0.013 -0.00725 -0.05725"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_1_8" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_2_8" pos=" 0.013 -0.0145 -0.05725"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_2_8" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_3_8" pos=" 0.013 -0.021 -0.05725"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_3_8" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_4_8" pos=" 0.013 -0.029 -0.05725"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_4_8" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_5_8" pos=" 0.013 -0.03625 -0.05725"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_5_8" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_6_8" pos=" 0.013 -0.0435 -0.05725"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_6_8" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <!-- 第九行 -->
+
+                <body name="touch_111_1_9" pos=" 0.013 -0.00725 -0.0645"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_1_9" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_2_9" pos=" 0.013 -0.0145 -0.0645"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_2_9" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_3_9" pos=" 0.013 -0.021 -0.0645"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_3_9" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_4_9" pos=" 0.013 -0.029 -0.0645"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_4_9" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_5_9" pos=" 0.013 -0.03625 -0.0645"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_5_9" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_6_9" pos=" 0.013 -0.0435 -0.0645"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_6_9" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <!-- 第十行 -->
+
+                <body name="touch_111_1_10" pos=" 0.013 -0.00725 -0.07175"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_1_10" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_2_10" pos=" 0.013 -0.0145 -0.07175"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_2_10" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_3_10" pos=" 0.013 -0.021 -0.07175"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_3_10" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_4_10" pos=" 0.013 -0.029 -0.07175"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_4_10" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_5_10" pos=" 0.013 -0.03625 -0.07175"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_5_10" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_1_11" pos=" 0.013 -0.00725 -0.079"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_1_11" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_2_11" pos=" 0.013 -0.0145 -0.079"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_2_11" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_3_11" pos=" 0.013 -0.021 -0.079"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_3_11" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_4_11" pos=" 0.013 -0.029 -0.079"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_4_11" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <!-- 最后一行 -->
+
+                <body name="touch_111_1_12" pos=" 0.013 0.02175 -0.08625"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_1_12" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_2_12" pos=" 0.013 0.0145 -0.08625"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_2_12" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_3_12" pos=" 0.013 0.00725 -0.08625"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_3_12" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_4_12" pos=" 0.013 0.0 -0.08625"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_4_12" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_5_12" pos=" 0.013 -0.00725 -0.08625"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_5_12" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_6_12" pos=" 0.013 -0.0145 -0.08625"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_6_12" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+
+                <body name="touch_111_7_12" pos=" 0.013 -0.02175 -0.08625"  euler=" 0.0 0.0 0">
+                <inertial diaginertia="0.0001 0.0001 0.0001" mass="0.0001" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0"/>
+                <geom name="touch_111_7_12" contype="1" conaffinity="0" friction="0.5 0.5 0.005" mesh="tactile_sphere2" pos="-0.0005 0 0" quat="0.707107 0 0.707107 0" rgba="0 0 1 1" type="mesh"/>
+                </body>
+            </body>
+<!--    <mesh name="tactile_sphere1" scale="0.001 0.001 0.001"  file="tactile_sphere.stl"/>-->
+<!--    <mesh name="tactile_sphere2" scale="0.002 0.002 0.002"  file="tactile_sphere.stl"/>-->

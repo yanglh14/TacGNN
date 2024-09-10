@@ -1,0 +1,202 @@
+<mujoco model="allegro">
+
+    <!--AllegroHand--> <!--手掌的定义-->
+    <body name="hand mount" pos="0 0 0" euler="0 0 0">
+    <inertial mass="0.1" pos="0 0 0" diaginertia="0.001 0.001 0.001"></inertial>
+    <body name="palm_link" pos="0 0 0" euler="1.5708 0 1.5708">
+            <inertial pos="0 0 0.0475" mass="0.4154" diaginertia="1.e-04 1.e-04 1e-04"/>
+            <geom class="palm" type="mesh" mesh="palm" material="gripper_mat"/>
+            <geom class="robot0:D_Contact" type="mesh" mesh="palm"></geom>
+
+                <!-- finger 1 -->
+                <body name="link_0.0" pos="0 0.0435 -0.001542" quat="0.999048 -0.0436194 0 0">
+                    <inertial pos="0 0 0" quat="0.707107 0.707107 0 0" mass="0.0119" diaginertia="1.01667e-06 1.01667e-06 6.47677e-07" />
+                    <joint name="joint_0.0" pos="0 0 0" axis="0 0 1" limited="true" range="-0.47 0.47" damping="1" frictionloss="1" stiffness="1"/>
+                    <geom class="finger1" type="mesh" mesh="link_0.0" rgba="0.2 0.2 0.2 1"/>
+                    <geom class="robot0:D_Contact" type="mesh" mesh="link_0.0" rgba="0.2 0.2 0.2 1"/>
+                    <body name="link_1.0" pos="0 0 0.0164">
+                        <inertial pos="0 0 0" quat="0.702596 0.559386 -0.178354 0.402039" mass="0.065" diaginertia="6.12799e-05 6.12799e-05 6.12799e-05" />
+                        <joint name="joint_1.0" pos="0 0 0" axis="0 1 0" limited="true" range="-0.196 1.61" damping="3" frictionloss="5" />
+                        <geom class="finger1" type="mesh" mesh="link_1.0" rgba="0.2 0.2 0.2 1"/>
+                        <geom class="robot0:D_Contact" type="mesh" mesh="link_1.0" rgba="0.2 0.2 0.2 1"/>
+                        <!-- tactile pad -->
+                        <body name="link_1.0_middle" pos="0.01 -0.01 0.015" euler="0 0 0">
+                            <inertial pos="0 0 0" quat="0.719796 0.528175 -0.157463 0.422055" mass="0.01" diaginertia="9.99999e-07 -9.92483e-07 9.92475e-07" />
+                            <geom class="finger1" pos="0 0 0"  type="mesh" mesh="link_middle" rgba="0.9 0.9 0.9 1" euler="0 0 0" />
+                        </body>
+
+                        <body name="link_2.0" pos="0 0 0.054">
+                            <inertial pos="0 0 0" quat="0.719796 0.528175 -0.157463 0.422055" mass="0.0355" diaginertia="2.20969e-05 2.20969e-05 2.20969e-05" />
+                            <joint name="joint_2.0" pos="0 0 0" axis="0 1 0" limited="true" range="-0.174 1.709" damping="1" frictionloss="1" stiffness="1" />
+                            <geom class="finger1" type="mesh" mesh="link_2.0" rgba="0.2 0.2 0.2 1" />
+                            <geom class="robot0:D_Contact" type="mesh" mesh="link_2.0" rgba="0.2 0.2 0.2 1"/>
+
+                            <!-- tactile pad -->
+                            <body name="link_2.0_middle" pos="0.01 -0.01 0.015" euler="0 0 0">
+                                <inertial pos="0 0 0" quat="0.719796 0.528175 -0.157463 0.422055" mass="0.01" diaginertia="9.99999e-07 -9.92483e-07 9.92475e-07" />
+                                <geom class="finger1" pos="0 0 0"  type="mesh" mesh="link_middle" rgba="0.9 0.9 0.9 1" euler="0 0 0" />
+
+                            </body>
+
+                            <body name="link_3.0" pos="0 0 0.0384">
+                                <inertial pos="0 0 0.0169909" mass="0.0264" diaginertia="9.67371e-06 9.67371e-06 5.3186e-06" />
+                                <joint name="joint_3.0" pos="0 0 0" axis="0 1 0" limited="true" range="-0.227 1.618" damping="1" frictionloss="12" stiffness="1" />
+                                <geom class="finger1" size="0.0098 0.01375 0.01335" type="mesh" name="link_3.0" mesh="link_3.0" rgba="0.2 0.2 0.2 1"/>
+                                <geom class="robot0:D_Contact" type="mesh" mesh="link_3.0" rgba="0.2 0.2 0.2 1"/>
+
+                                <!-- finger tip -->
+                                <body name="link_3.0_tip" pos="0.002 0  0.0157" >  <!--0.002 0 0.0213-->
+                                    <geom class="finger1" pos="0 0 0" rgba="0.9 0.9 0.9 1" type="mesh" mesh="link_3.0_tip"  euler="0 0 0"/>
+                                    <geom class="robot0:D_Contact" type="mesh" mesh="link_3.0_tip" rgba="0.2 0.2 0.2 1"/>
+                                </body>
+                            </body>
+                        </body>
+                    </body>
+                </body>
+
+                <!-- finger 2 -->
+                <body name="link_4.0" pos="0 0 0.00003">
+                    <inertial pos="0 0 0" quat="0.707107 0.707107 0 0" mass="0.0119" diaginertia="1.01667e-06 1.01667e-06 6.47677e-07" />
+                    <joint name="joint_4.0" pos="0 0 0" axis="0 0 1" limited="true" range="-0.47 0.47" damping="1" frictionloss="1" stiffness="1"/>
+                    <geom class="finger2" type="mesh" mesh="link_4.0" rgba="0.2 0.2 0.2 1"/>
+                    <geom class="robot0:D_Contact" type="mesh" mesh="link_4.0" rgba="0.2 0.2 0.2 1"/>
+                    <body name="link_5.0" pos="0 0 0.0164">
+                        <inertial pos="0 0 0" quat="0.702596 0.559386 -0.178354 0.402039" mass="0.065" diaginertia="6.12799e-05 6.12799e-05 6.12799e-05" />
+                        <joint name="joint_5.0" pos="0 0 0" axis="0 1 0" limited="true" range="-0.196 1.61" damping="3" frictionloss="5" />
+                        <geom class="finger2" type="mesh" mesh="link_5.0" rgba="0.2 0.2 0.2 1"/>
+                        <geom class="robot0:D_Contact" type="mesh" mesh="link_5.0" rgba="0.2 0.2 0.2 1"/>
+
+                        <!-- tactile pad -->
+                        <body name="link_5.0_middle" pos="0.01 -0.01 0.015" euler="0 0 0">
+                            <inertial pos="0 0 0" quat="0.719796 0.528175 -0.157463 0.422055" mass="0.01" diaginertia="9.99999e-07 -9.92483e-07 9.92475e-07" />
+                            <geom class="finger2" pos="0 0 0"  type="mesh" mesh="link_middle" rgba="0.9 0.9 0.9 1" euler="0 0 0" />
+
+                        </body>
+
+                        <body name="link_6.0" pos="0 0 0.054">
+                            <inertial pos="0 0 0" quat="0.719796 0.528175 -0.157463 0.422055" mass="0.0355" diaginertia="2.20969e-05 2.20969e-05 2.20969e-05" />
+                            <joint name="joint_6.0" pos="0 0 0" axis="0 1 0" limited="true" range="-0.174 1.709" damping="1" frictionloss="1" stiffness="1" />
+                            <geom class="finger2" type="mesh" mesh="link_6.0" rgba="0.2 0.2 0.2 1"/>
+                            <geom class="robot0:D_Contact" type="mesh" mesh="link_6.0" rgba="0.2 0.2 0.2 1"/>
+
+                            <!-- tactile pad -->
+                            <body name="link_6.0_middle" pos="0.01 -0.01 0.015" euler="0 0 0">
+                                <inertial pos="0 0 0" quat="0.719796 0.528175 -0.157463 0.422055" mass="0.01" diaginertia="9.99999e-07 -9.92483e-07 9.92475e-07" />
+                                <geom class="finger2" pos="0 0 0"  type="mesh" mesh="link_middle" rgba="0.9 0.9 0.9 1" euler="0 0 0" />
+
+                            </body>
+
+                            <body name="link_7.0" pos="0 0 0.0384">
+                                <inertial pos="0 0 0.0169909" mass="0.0264" diaginertia="9.67371e-06 9.67371e-06 5.3186e-06" />
+                                <joint name="joint_7.0" pos="0 0 0" axis="0 1 0" limited="true" range="-0.227 1.618" damping="1" frictionloss="12" stiffness="1" />
+                                <geom size="0.0098 0.01375 0.01335" pos="0 0 0.01335" type="box" rgba="0.2 0.2 0.2 0" contype="0" conaffinity="0"/>
+                                <geom class="finger2" type="mesh" mesh="link_7.0" rgba="0.2 0.2 0.2 1" contype="0" conaffinity="0"/>
+                                <geom class="robot0:D_Contact" type="mesh" mesh="link_7.0" rgba="0.2 0.2 0.2 1"/>
+
+                                <!-- finger tip -->
+                                <body name="link_7.0_tip" pos="0.002 0 0.0157">
+                                    <geom class="finger2" pos="0 0 0" rgba="0.9 0.9 0.9 1" type="mesh" mesh="link_7.0_tip"  euler="0 0 0"/>
+                                    <geom class="robot0:D_Contact" type="mesh" mesh="link_7.0_tip" rgba="0.2 0.2 0.2 1"/>
+
+                                </body>
+                            </body>
+                        </body>
+                    </body>
+                </body>
+
+                <!-- finger 3 -->
+                <body name="link_8.0" pos="0 -0.0435 -0.001542" quat="0.999048 0.0436194 0 0">
+                    <inertial pos="0 0 0" quat="0.707107 0.707107 0 0" mass="0.0119" diaginertia="1.01667e-06 1.01667e-06 6.47677e-07" />
+                    <joint name="joint_8.0" pos="0 0 0" axis="0 0 1" limited="true" range="-0.47 0.47" damping="1" frictionloss="1" stiffness="1" />
+                    <geom class="finger3" type="mesh" mesh="link_8.0" rgba="0.2 0.2 0.2 1"/>
+                    <geom class="robot0:D_Contact" type="mesh" mesh="link_8.0" rgba="0.2 0.2 0.2 1"/>
+
+                    <body name="link_9.0" pos="0 0 0.0164">
+                        <inertial pos="0 0 0" quat="0.702596 0.559386 -0.178354 0.402039" mass="0.065" diaginertia="6.12799e-05 6.12799e-05 6.12799e-05" />
+                        <joint name="joint_9.0" pos="0 0 0" axis="0 1 0" limited="true" range="-0.196 1.61" damping="3" frictionloss="5" />
+                        <geom class="finger3" type="mesh" mesh="link_9.0" rgba="0.2 0.2 0.2 1"/>
+                        <geom class="robot0:D_Contact" type="mesh" mesh="link_9.0" rgba="0.2 0.2 0.2 1"/>
+
+                        <!-- tactile pad -->
+                        <body name="link_9.0_middle" pos="0.01 -0.01 0.015" euler="0 0 0">
+                            <inertial pos="0 0 0" quat="0.719796 0.528175 -0.157463 0.422055" mass="0.01" diaginertia="9.99999e-07 -9.92483e-07 9.92475e-07" />
+                            <geom class="finger3" pos="0 0 0"  type="mesh" mesh="link_middle" rgba="0.9 0.9 0.9 1" euler="0 0 0" />
+
+                        </body>
+
+                        <body name="link_10.0" pos="0 0 0.054">
+                            <inertial pos="0 0 0" quat="0.719796 0.528175 -0.157463 0.422055" mass="0.0355" diaginertia="2.20969e-05 2.20969e-05 2.20969e-05" />
+                            <joint name="joint_10.0" pos="0 0 0" axis="0 1 0" limited="true" range="-0.174 1.709" damping="1" frictionloss="1" stiffness="1" />
+                            <geom class="finger3" type="mesh" mesh="link_10.0" rgba="0.2 0.2 0.2 1"/>
+                            <geom class="robot0:D_Contact" type="mesh" mesh="link_10.0" rgba="0.2 0.2 0.2 1"/>
+
+                            <!-- tactile pad -->
+                            <body name="link_10.0_middle" pos="0.01 -0.01 0.015" euler="0 0 0">
+                                <inertial pos="0 0 0" quat="0.719796 0.528175 -0.157463 0.422055" mass="0.01" diaginertia="9.99999e-07 -9.92483e-07 9.92475e-07" />
+                                <geom class="finger3" pos="0 0 0"  type="mesh" mesh="link_middle" rgba="0.9 0.9 0.9 1" euler="0 0 0" />
+
+                            </body>
+
+                            <body name="link_11.0" pos="0 0 0.0384">
+                                <inertial pos="0 0 0.0169909" mass="0.0264" diaginertia="9.67371e-06 9.67371e-06 5.3186e-06" />
+                                <joint name="joint_11.0" pos="0 0 0" axis="0 1 0" limited="true" range="-0.227 1.618" damping="1" frictionloss="12" stiffness="1" />
+                                <geom class="finger3" type="mesh" mesh="link_11.0" rgba="0.2 0.2 0.2 1" contype="0" conaffinity="0"/>
+                                <geom class="robot0:D_Contact" type="mesh" mesh="link_11.0" rgba="0.2 0.2 0.2 1"/>
+
+                                <!-- finger tip -->
+                                <body name="link_11.0_tip" pos="0.002 0 0.0157">
+                                    <geom class="finger3" pos="0 0 0" rgba="0.9 0.9 0.9 1" type="mesh" mesh="link_11.0_tip"  euler="0 0 0"/>
+                                    <geom class="robot0:D_Contact" type="mesh" mesh="link_11.0_tip" rgba="0.2 0.2 0.2 1"/>
+
+                                </body>
+                            </body>
+                        </body>
+                    </body>
+                </body>
+
+                <!-- finger 4 -->
+                <body name="link_12.0" pos="-0.0182 0.019333 -0.045987" quat="0.477714 -0.521334 -0.521334 -0.477714">
+                    <inertial pos="0 0 0" quat="0.692635 0.569362 -0.07143 0.437013" mass="0.0176" diaginertia="1.73852e-05 1.73852e-05 1.73852e-05" />
+                    <joint name="joint_12.0" pos="0 0 0" axis="-1 0 0" limited="true" range="0.263 1.396" damping="3" frictionloss="10" />
+                    <geom contype="1" conaffinity="30" type="mesh" mesh="link_12.0" rgba="0.2 0.2 0.2 1" />
+                    <geom class="robot0:D_Contact" type="mesh" mesh="link_12.0" rgba="0.2 0.2 0.2 1"/>
+
+                    <body name="link_13.0" pos="-0.027 0.005 0.0399">
+                        <inertial pos="0 0 0" quat="-0.0269589 0.880876 0.334036 0.334292" mass="0.0119" diaginertia="4.33621e-06 4.33621e-06 4.33621e-06" />
+                        <joint name="joint_13.0" pos="0 0 0" axis="0 0 1" limited="true" range="-0.105 1.163" damping="3" frictionloss="5" />
+                        <geom class="finger4" type="mesh" mesh="link_13.0" rgba="0.2 0.2 0.2 1"/>
+                        <geom class="robot0:D_Contact" type="mesh" mesh="link_13.0" rgba="0.2 0.2 0.2 1"/>
+
+                        <body name="link_14.0" pos="0 0 0.0177">
+                            <inertial pos="0 0 0" quat="0.70472 0.55555 -0.174905 0.405146" mass="0.038" diaginertia="3.35111e-05 3.35111e-05 3.35111e-05" />
+                            <joint name="joint_14.0" pos="0 0 0" axis="0 1 0" limited="true" range="-0.189 1.644" damping="3" frictionloss="10" />
+                            <geom class="finger4" type="mesh" mesh="link_14.0" rgba="0.2 0.2 0.2 1" contype="0" conaffinity="0"/>
+                            <geom class="robot0:D_Contact" type="mesh" mesh="link_14.0" rgba="0.2 0.2 0.2 1"/>
+
+                            <body name="link_15.0" pos="0 0 0.0514">
+                                <inertial pos="0 0 0.0127813" quat="0.707107 0 0 0.707107" mass="0.0556" diaginertia="4.88098e-05 4.88098e-05 2.78326e-05" />
+                                <joint name="joint_15.0" pos="0 0 0" axis="0 1 0" limited="true" range="-0.162 1.719" damping="3" frictionloss="12" />
+                                <geom class="finger4" type="mesh" mesh="link_15.0" rgba="0.2 0.2 0.2 1"/>
+                                <geom class="robot0:D_Contact" type="mesh" mesh="link_15.0" rgba="0.2 0.2 0.2 1"/>
+
+                                <!-- tactile pad -->
+                                <body name="link_15.0_middle" pos="0.01 -0.01 0.0" euler="0 0 0">
+                                    <inertial pos="0 0 0" quat="0.719796 0.528175 -0.157463 0.422055" mass="0.01" diaginertia="9.99999e-07 -9.92483e-07 9.92475e-07" />
+                                    <geom class="finger4" pos="0 0 0"  type="mesh" mesh="link_middle" rgba="0.9 0.9 0.9 1" euler="0 0 0" />
+
+                                </body>
+
+                                <!-- finger tip -->
+                                <body name="link_15.0_tip" pos="0.002 0 0.0313">
+                                <geom class="finger4" pos="0 0 0" rgba="0.9 0.9 0.9 1" type="mesh" mesh="link_15.0_tip"  euler="0 0 0"/>
+                                <geom class="robot0:D_Contact" type="mesh" mesh="link_15.0_tip" rgba="0.2 0.2 0.2 1"/>
+
+                                </body>
+                            </body>
+                        </body>
+                    </body>
+                </body>
+        </body>
+    </body>
+
+</mujoco>

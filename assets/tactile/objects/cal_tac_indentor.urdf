@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<robot name="object">
+
+  <material name="Mat1"><color rgba="1.0 1.0 1.0 1.0"/></material>
+  <material name="Mat2"><color rgba="1.0 0 0 1.0"/></material>
+
+  <link name="object">
+    <visual>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.01" radius="0.001"/>
+      </geometry>
+      <material name="Mat2"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.01" radius="0.001"/>
+      </geometry>
+    </collision>
+     <inertial>
+      <mass value="0.5"/>
+      <inertia ixx="0.05" ixy="0.0" ixz="0.0" iyy="0.05" iyz="0.0" izz="0.05"/>
+    </inertial>
+  </link>
+
+   <link name="ball">
+    <visual>
+      <origin xyz="0 0 -0.005"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+      <material name="Mat2"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 005"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.5"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+  </link>
+
+    <joint name="base_to_right_leg" type="fixed">
+        <parent link="object"/>
+        <child link="ball"/>
+    </joint>
+</robot>

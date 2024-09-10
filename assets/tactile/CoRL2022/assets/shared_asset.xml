@@ -1,0 +1,34 @@
+<!-- See LICENSE.md for legal notices. LICENSE.md must be kept together with this file. -->
+<mujoco>
+    <texture type="skybox" builtin="gradient" rgb1="0.44 0.85 0.56" rgb2="0.46 0.87 0.58" width="32" height="32"></texture>
+
+    <texture name="robot0:texplane" type="2d" builtin="checker" rgb1="0.2 0.3 0.4" rgb2="0.1 0.15 0.2" width="512" height="512"></texture>
+    <texture name="robot0:texgeom" type="cube" builtin="flat" mark="cross" width="127" height="127" rgb1="0.3 0.6 0.5" rgb2="0.3 0.6 0.5" markrgb="0 0 0" random="0.01"></texture>
+
+    <material name="robot0:MatGnd" reflectance="0.5" texture="robot0:texplane" texrepeat="1 1" texuniform="true"></material>
+    <material name="robot0:MatColl" specular="1" shininess="0.3" reflectance="0.5" rgba="0.4 0.5 0.6 1"></material>
+    <material name="robot0:MatViz" specular="0.75" shininess="0.1" reflectance="0.5" rgba="0.3 0.3 0.3 1"></material>
+    <material name="robot0:MatViz_Pad" specular="0.75" shininess="0.1" reflectance="0.5" rgba="0.7 0.7 0.7 1"></material>
+
+    <material name="object1" specular="0.75" shininess="0.1" reflectance="0.5" rgba="0.7 0.7 0.7 1"></material>
+    <material name="object2" specular="0.75" shininess="0.1" reflectance="0.5" rgba="0.3 0.5 0.7 1"></material>
+
+    <material name="robot0:object" texture="robot0:texgeom" texuniform="false"></material>
+    <material name="floor_mat" specular="0" shininess="0.5" reflectance="0" rgba="0.2 0.2 0.2 0"></material>
+
+    <mesh name="palm"            file="palm.stl"></mesh>
+    <mesh name="link_0.0"        file="link_0.0.stl"></mesh>
+    <mesh name="link_1.0"        file="link_1.0.stl" />
+    <mesh name="link_2.0"         file="link_2.0.stl" />
+    <mesh name="link_middle"   scale="0.001 0.001 0.001" file="link_middle.stl"/>
+    <mesh name="link_3.0"         file="link_3.0.stl" />
+    <mesh name="link_3.0_tip"  scale="0.001 0.001 0.001" file="fingertip_V2_fixed4.stl"/>
+    <mesh name="link_12.0"        file="link_12.0_right.stl" />
+    <mesh name="link_13.0"        file="link_13.0.stl" />
+    <mesh name="link_14.0"        file="link_14.0.stl" />
+    <mesh name="link_15.0"        file="link_15.0.stl" />
+    <mesh name="link_15.0_tip" scale="0.001 0.001 0.001"  file="fingertip_V2_fixed4.stl"/>
+    <mesh name="tactile_sphere1" scale="0.001 0.001 0.001"  file="tactile_sphere.stl"/>
+    <mesh name="tactile_sphere2" scale="0.002 0.002 0.002"  file="tactile_sphere.stl"/>
+
+</mujoco>

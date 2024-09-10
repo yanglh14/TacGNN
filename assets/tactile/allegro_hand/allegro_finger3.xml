@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mujoco>
+    <compiler angle="radian" coordinate="local" meshdir="../stls/hand" texturedir="../textures"></compiler>
+    <option timestep="0.002" iterations="20" apirate="200">
+        <flag warmstart="enable"></flag>
+    </option>
+
+    <include file="assets/shared.xml"></include>
+
+    <asset>
+        <include file="assets/shared_asset.xml"></include>
+    </asset>
+
+    <worldbody>
+        <include file="assets/finger3.xml"></include>
+
+    </worldbody>
+
+    <!--ACTUATORS-->
+<!--    <actuator>-->
+
+<!--        &lt;!&ndash;gripper&ndash;&gt;-->
+
+<!--        <position name='finger_8_0' ctrllimited="true" kp="50" ctrlrange="-0.47 0.47" joint='joint_8.0'/>-->
+<!--        <position name='finger_9_0' ctrllimited="true" kp="50" ctrlrange="-0.196 1.61" joint='joint_9.0'/>-->
+<!--        <position name='finger_10_0' ctrllimited="true" kp="50" ctrlrange="-0.174 1.25" joint='joint_10.0'/>-->
+<!--        <position name='finger_11_0' ctrllimited="true" kp="50" ctrlrange="0 0.6" joint='joint_11.0'/>-->
+
+<!--    </actuator>-->
+
+</mujoco>

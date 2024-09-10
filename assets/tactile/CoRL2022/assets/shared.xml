@@ -1,0 +1,47 @@
+<mujoco>
+
+    <size njmax="5000" nconmax="1000" nuser_jnt="1" nuser_site="1" nuser_tendon="1" nuser_sensor="1" nuser_actuator="16" nstack="600000"></size>
+
+    <visual>
+        <map fogstart="3" fogend="5" force="0.1"></map>
+        <quality shadowsize="4096"></quality>
+    </visual>
+
+    <default>
+        <default class="robot0:asset_class">
+            <geom friction="1 0.005 0.001" condim="3" margin="0.0005" contype="1" conaffinity="1"></geom>
+            <joint limited="true" damping="0.1" armature="0.001" margin="0.01" frictionloss="0.001"></joint>
+            <site size="0.005" rgba="0.4 0.9 0.4 1"></site>
+            <general ctrllimited="true" forcelimited="true"></general>
+        </default>
+        <default class="robot0:D_Touch">
+            <site type="box" size="0.009 0.004 0.013" pos="0 -0.004 0.018" rgba="0.8 0.8 0.8 0.15" group="4"></site>
+        </default>
+
+        <default class="robot0:Palm">
+            <geom material="robot0:MatViz" contype="0" conaffinity="0" group="1" type="mesh"></geom>
+        </default>
+
+        <default class="robot0:Finger">
+            <geom material="robot0:MatViz" contype="0" conaffinity="0" group="1" type="mesh"></geom>
+        </default>
+
+        <default class="robot0:Pad">
+            <geom material="robot0:MatViz_Pad" contype="0" conaffinity="0" group="1" type="mesh"></geom>
+        </default>
+
+        <default class="robot0:Tactile">
+            <geom material="robot0:MatViz_Pad" contype="0" conaffinity="0" group="1" type="mesh"></geom>
+        </default>
+
+        <default class="robot0:D_Contact">
+            <geom material="robot0:MatColl" contype="1" conaffinity="0" group="4" type="mesh"></geom>
+        </default>
+
+        <default class="robot0:free">
+            <joint type="free" damping="0" armature="0" limited="false"></joint>
+        </default>
+
+    </default>
+
+</mujoco>
